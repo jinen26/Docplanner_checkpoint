@@ -1,0 +1,288 @@
+
+header nav img{
+    width: 260px;
+    height: 33px;
+}
+header nav {
+    width: 100%;
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color: white;
+    z-index: 9999;
+    
+}
+header  nav{box-shadow: 0 -2px 10px 0 rgb(0 0 0 / 15%);
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    padding: 9px;
+}
+header nav ul li a {
+    text-decoration: none;
+    margin-left: 20px;
+    color:#747474
+}
+.drop-menu {
+    flex-direction:column;
+    position:absolute;
+    background-color: #f6f8f8;
+    width:300px;
+    display:none;
+}
+.drop:hover > .drop-menu
+{display:flex;}
+header nav ul li a:hover 
+{ color:#00b39b}
+.drop-menu li 
+{ padding:5px 12;}
+.drop .drop-menu li:hover {
+    color:#00b39b;
+}
+.greenColor{
+    color: #00b39b;
+}
+main h1 {
+    color:#00b39b;
+    font-family:Arial,sans-serif;
+
+}
+main{
+    width:80%
+    margin:0 auto;
+    padding-top : 70px; }
+.paragraph{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    color:#747474;
+}
+.paragraph p{
+    width: 40%;
+    text-align:left;
+    font-size:18px;
+}
+.container
+{
+position:relative;
+width:1200px;
+height:300px;
+margin:240px auto;
+background-color:white;
+
+}
+.container  .box1 
+{   color:white;
+    background-color: #00b39b;
+    font-size:20px;
+    width:250px; 
+    height:345px;
+    margin:40px;
+    float:left;
+    overflow:hidden;
+    border-radius: 10px;
+    padding:32px;
+display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.container .box1 img 
+{
+    width:30px;
+    height:30px;
+}
+.container  .box2
+{   color:white;
+    background-color:#3d83df;
+    font-size:20px;
+    width:250px; 
+    height:345px;
+    margin:40px;
+    float:left;
+    overflow:hidden;
+    border-radius: 10px;
+    padding:32px;
+display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.container  .box3 
+{   color:white;
+    background-color:#1b2734;
+    font-size:20px;
+    width:250px; 
+    height:345px;
+    margin:40px;
+    float:left;
+    overflow:hidden;
+    border-radius: 10px;
+    padding:32px;
+display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.container .box2 img 
+{
+    width:30px;
+    height:30px;
+}
+.container .box3 img 
+{
+    width:30px;
+    height:30px;
+}
+.op1{
+    border: 0;
+    outline: 0;
+    background-color:transparent;
+    color: #fff;
+    font-size: 1rem;
+}
+.op1 option{
+    color: black;
+}
+.op2{
+    border: 0;
+    outline: 0;
+    background-color:transparent;
+    color: #fff;
+    font-size: 1rem;
+}
+.op2 option{
+    color: black;
+}
+.op3{
+    border: 0;
+    outline: 0;
+    background-color:transparent;
+    color: #fff;
+    font-size: 1rem;
+}
+.op3 option{
+    color: black;
+}
+.op4{
+    border: 0;
+    outline: 0;
+    background-color:transparent;
+    color: #fff;
+    font-size: 1rem;
+}
+.op4 option{
+    color: black;
+}
+.links p
+{
+color:#00b39b;
+text-align: left;
+font-size:30px;
+}
+.links
+{display: flex;
+justify-content: space-between;
+margin-top:40px;}
+.brand_logos {
+    width:60%;
+    display:flex;
+    flex-wrap: wrap;
+}
+.brand_logos svg {
+    width:120px;
+    margin-left: 20px;
+    fill:grey;
+    
+}
+.brand_logos svg:hover {
+    fill:#00b39b;
+}
+
+
+.aboutus 
+{    display: flex;
+     background-color:#e5faf8;
+     color:#00b39b ;
+     width:100%;
+    height: 600px;
+     background-image: url(./logoOne-svg.svg);
+     background-size:500px;
+    background-repeat: no-repeat;
+    background-position-y: 200px;
+    background-position-x: 100px;
+}
+.big_container
+{
+    width:80%;
+    margin:0 auto;
+    display:flex;
+    padding-top:70px;
+
+}
+
+.cards {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    width:400px;
+    height:400px;
+    margin-left: 600px;
+   
+}
+.dash
+{
+margin-top:20px;}
+
+.card{
+    width:150px;
+    height:250px;
+    font-size: 15px;
+    background-color:white;
+    margin-bottom:10px;
+    margin-left: 5px;
+    border-radius: 5px;
+   
+   
+}
+.aboutus p {
+    color:grey;
+}
+
+
+.writ h1 {
+    color:#00b39b
+}
+.writ p {
+    color:#747474;
+}
+.aboutus img{ width: 30px;}
+
+.links .brand_logos
+{
+   width:70%;
+   margin:0 auto ;
+   display: flex;
+   justify-content: space-around;
+}
+.writ
+{
+    background-color: white;
+}
+main ul li 
+{ font-weight: 400;
+font-family: Arial, sans-serif;
+padding-top:70px;
+display:inline-block;
+padding: 5px 0;
+}
+.boostrap-test{
+    width:100%;
+    height:1000px;
+    background-color: #e5faf8;
+
+}
